@@ -1,0 +1,11 @@
+[package]
+name = "cortex-toml"
+version = "0.1.0"
+edition = "2021"
+description = "Configuration-as-code via .cortex.toml — parse, validate, serialize, diff, and migrate exocortex configs"
+license = "MIT"
+repository = "https://github.com/SuperInstance/cortex-toml"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
